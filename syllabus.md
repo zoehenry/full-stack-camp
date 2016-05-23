@@ -22,12 +22,12 @@ To prepare for our first week of class, there will be some pre-work to get our f
 
 #### Subject
 
-- Environment setup
-- HTML/CSS Primer
+- [Environment setup](https://github.com/codesail-camp/full-stack-camp/blob/master/week-0/part-1-environment-setup.md)
+- [HTML/CSS Primer](https://github.com/codesail-camp/full-stack-camp/blob/master/week-0/part-2-html-css-primer.md)
 
 #### Homework:
 ###### Due Friday, May 27, 2016
-- Create a webpage from an image
+- [Create a webpage from an image](https://github.com/codesail-camp/full-stack-camp/blob/master/week-0/part-2-html-css-primer.md)
 
 ---
 

@@ -176,6 +176,7 @@ p {
   }
   ```
 - `margin` This declares the margin for all four sides of an element. Its values are denoted as the margin for bottom, left, right, and top, respectively.
+
   Example:
   ```
   .description {
@@ -204,6 +205,7 @@ p {
   }
   ```
 - `background-color` describes the background color of an element.
+
   Example:
   ```
   .description {
@@ -211,6 +213,7 @@ p {
   }
   ```
 - `background-image` describes the background image of an element.
+
   Example:
   ```
   .description {
@@ -218,6 +221,7 @@ p {
   }
   ```
 - `background-repeat` denotes how the background of an element would repeat. By default, the background will repeat vertically and horizontally. Sample values: `repeat-x`, `repeat-y`, `no-repeat`
+
   Example:
   ```
   .description {
@@ -226,6 +230,7 @@ p {
   }
   ```
 - `background-size` describes the size of the background image. Sample values: `80px 60px`, `cover`
+
   Example:
   ```
   .description {
@@ -278,11 +283,10 @@ Example CSS
 
 It is highly recommended that you complete this exercise in a text editor like [Sublime](https://www.sublimetext.com) or [Atom](https://atom.io).
 
-1. Modify the practice HTML and stylesheet documents from the part-2-practice folder to include information about yourself.
+1. Modify the [practice HTML and stylesheet documents](https://github.com/codesail-camp/full-stack-camp/tree/master/week-0/part-2-practice) from the part-2-practice folder to include information about yourself.
   - To view the webpage, open `practice.html` in your browser.
-2. Using the image and HTML skeleton provided in the exercise folder, create a webpage to look like the image. You may need to refer to documentation on [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference). It is highly encouraged that you use external references to complete this assignment!
 
 
 ## Homework:
 ##### Due Friday, May 27, 2016
-- Create a webpage from an image
+- Using the image and HTML skeleton provided in the [exercise folder](https://github.com/codesail-camp/full-stack-camp/tree/master/week-0/part-2-exercise), create a webpage to look like the image. You may need to refer to documentation on [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference). It is highly encouraged that you use external references to complete this assignment!
