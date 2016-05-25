@@ -11,6 +11,9 @@
 
 ### File manipulation
 - `touch`
+- `mv`
+- `cp`
+- `rm`/`rm -r`
 - `nano`
 - `vim`
 

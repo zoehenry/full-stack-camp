@@ -1,5 +1,7 @@
 # What is the Internet?
 
+![CodeSail](https://www.codesail.io/assets/logo-3f332da93aa10ae55f53d3098586def01c2219d425dbe57591a2312c13476eeb.png)
+
 !
 
 ### Question
@@ -14,9 +16,16 @@ Reference: https://github.com/alex/what-happens-when
 
 ### Answer
 
-As you might imagine, It's complicated. There are a *lot* of things that happen.
+A bird's-eye view gives insight into the "full stack"
 
-A bird's-eye view gives insight into the "full stack".
+- G key is pressed
+- The "enter" key bottoms out
+- Browser parses the URL
+- Browser looks up the DNS
+- Browser makes a connection
+- Request and response
+- Browser parses response
+- Browser renders page
 
 !
 
@@ -48,6 +57,10 @@ What you see:
 - Progress bars, spinners
 - "X" instead of refresh symbol ↻
 
+!
+
+### The "enter" key bottoms out (cont.)
+
 What you don't see:
 
 - State of the browser changes. Goes into this in-between loading state.
@@ -60,6 +73,11 @@ What you don't see:
 
 - Browser looks for the `protocol` "http", the `hostname` "google.com" and the `resource` "/".
 - Browser decides if this is a URL or a search term. Browsers will default to searching if what's entered in the address bar isn't a valid URL.
+
+!
+
+### Browser parses the URL (cont.)
+
 - Checks if website needs to be redirected via the HTTP Strict Transport Security (HSTS) list.
 - Converts non-ASCII Unicode characters in hostname. Only certain characters are valid for hostnames, `a-z`, `A-Z`, `0-9`, `-`, and `.`.
 
@@ -81,11 +99,16 @@ What you don't see:
 
 !
 
-### Request and response
+### Request
 
 - If the protocol is secure (HTTPS), it will do a TLS (Transport Layer Security) handshake
 - For both HTTP and HTTPS, it will do an HTTP `GET` request
 - For each `request`, there is a `response`
+
+!
+
+### Response
+
 - A typical response is a `200 OK`, which means everything was good
 - Other responses include `301 Moved Permanently`, which is a redirect, `404 Not Found`, and `500 Internal Server Error`.
 - The first digit usually signifies what kind of code it is (e.g. `2xx`, `3xx`, `4xx`, or `5xx`).
@@ -95,7 +118,18 @@ What you don't see:
 ### Browser parses resources
 
 - The response comes along with `resources`, which include all the data that a browser needs to render a page: HTML, CSS, JavaScript, images, etc.
-- Browser has to parse each of these resources to construct a tree known as the `DOM` (document object model).
+- Browser has to parse each of these resources to construct a `tree` known as the `DOM` (document object model).
+
+!
+
+### Browser parses resources (cont.)
+
+![An example of a DOM](http://www.math-cs.gordon.edu/courses/cps353/lectures/images/dom.png)
+
+!
+
+### Browser parses resources (cont.)
+
 - The DOM represents each of the HTML `elements` on a page and their hierarchical relationships. Each element also comes with a set of `attributes`.
 - An element is an individual component, whereas an attribute is a modifier specific to that individual component (e.g. `<p></p>` is an element and `<p class="title"></p>` is a `p` element with a class attribute set to `title`)
 
@@ -108,11 +142,19 @@ What you don't see:
 - Does actual graphic rendering of page (often involves GPU commands through Direct3D or OpenGL)
 
 !
-
 ### Summary
 
+![Full stack](http://i.imgur.com/M5JhIvt.png)
+
 - A ton of things happen when you type google.com into your browser's address box and press enter
+
+!
+
+### Summary (cont.)
+
 - Many moving parts, interdependent pieces of a larger system
 - Most of this is abstracted away in different layers, which allows you to think of only the problem at hand
+
+Next: The layer we're going to start is at the `command line`. This is how developers manipulate the files that are needed to run do any of the things we just mentioned
 
 Reference: https://github.com/alex/what-happens-when
