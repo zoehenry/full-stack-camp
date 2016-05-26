@@ -8,3 +8,4 @@
 - John Cadengo, johncadengo@gmail.com
 - Tiffany Pang, tiffany.pang.sf@gmail.com
 - Alena Gribskov, alena@codesail.io
+- Niels Gribskov, ngribskov@gmail.com
