@@ -6,7 +6,7 @@
 
 - Using only shell commands, create a file that contains the following information.
 - Using only shell commands, make a folder called 'week-1-in-class-assignments' in your Documents folder and move the file into the new folder.
-- Email the file and the terminal commands you used (copy and paste your terminal) to [assignments@codesail.io](mailto:assignments@codesail.io)
+- Email the file and the terminal commands you used (copy and paste your terminal) to [teamcodesail@gmail.com](mailto:teamcodesail@gmail.com)
 
 ##### Example:
 
