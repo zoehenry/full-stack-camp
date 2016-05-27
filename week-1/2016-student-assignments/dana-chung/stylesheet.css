@@ -1,0 +1,48 @@
+body {
+  background-image: url("flag.jpg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 10px;
+}
+
+strong {
+  font-size: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 115px;
+  width: 115px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+
+}
+
+.profile-content {
+  border: 1px solid black;
+  margin: 400px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 68%;
+  left: 43%;
+}
