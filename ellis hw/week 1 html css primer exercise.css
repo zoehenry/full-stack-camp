@@ -1,0 +1,36 @@
+body {
+  background-color: green;
+}
+
+.title {
+  color: black;
+  margin: 100px;
+}
+
+h1, p, .images {
+  font-family: sans-serif;
+}
+
+.description p, .first-paragraph {
+  font-size: 50px;
+  text-align: left;
+  margin: 100px;
+}
+
+.images {
+  text-align: left;
+  margin: 100px;
+  font-size: 50px;
+  display: block;
+}
+
+.IMG_4302.jpg {
+  width: 20px;
+  height: 40px;
+}
+
+.links {
+  text-align: left;
+  font-size: 50px;
+  margin: 100px;
+}
