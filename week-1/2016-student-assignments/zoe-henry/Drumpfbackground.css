@@ -1,0 +1,70 @@
+
+body {
+  background-image: url("https://raw.githubusercontent.com/codesail-camp/full-stack-camp/master/week-0/part-2-exercise/flag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.title {
+  color: black;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center; //header
+  margin: 20px 0px 0px 100px; //need to fix location
+}
+
+h2, hr {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+div.profile-content p.profile-description {
+  font-size: 80px;
+  border: 1px white solid;
+  background-color: white;
+  opacity: 0.5;
+  padding: 10px;
+  margin: 100px;
+}
+
+.profile-content {
+  background-color: white;
+  opacity: 0.5;
+  padding-top: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: -90px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.profile-image {
+  text-align: center;
+  opacity: 1;
+}
+
+img {
+  margin: -100px 0px 0px 50px;
+  padding: 20px 0px 0px 20px
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.container {
+  width: 700px;
+  height: 1000px;
+  margin: 100px 0px 300px 300px;
+  padding: 20px 0px 0px 20px;
+
+}

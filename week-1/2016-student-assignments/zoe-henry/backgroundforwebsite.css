@@ -1,0 +1,29 @@
+
+body {
+  background-color: purple;
+}
+
+.title {
+  color: black;
+}
+
+h1, p {
+  font-family: sans-serif;
+}
+
+div.description p.first-paragraph {
+  font-size: 80px;
+  border: 1px black solid;
+  background-color: white;
+  padding: 10px;
+  margin: 100px;
+}
+
+.images {
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
