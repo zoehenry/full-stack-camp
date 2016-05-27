@@ -99,7 +99,35 @@ Here's the conceptual bigger picture that we're working toward.
 
 !
 
-### And that's one request
+### Example
+
+!
+
+### Donald Drumpf
+
+- Your homework is an example of how a view would look. It consists of HTML and CSS code.
+
+<img src="donald_drumpf.png">
+
+!
+
+### John Watson
+
+- We can use the same template to make a profile page for John Watson.
+
+<img src="john_watson.png">
+
+!
+
+### Template
+
+- When a controller inserts information from the model, the template looks like this:
+
+<img src="html_template_drumpf.png">
+
+!
+
+### And that's one request!
 
 !
 
