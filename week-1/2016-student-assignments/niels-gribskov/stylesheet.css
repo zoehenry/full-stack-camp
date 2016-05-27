@@ -1,0 +1,75 @@
+body {
+  display: block;
+  background-image: url("flag.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.body img{
+  width: 100%;
+}
+
+@media (max-width: 33%) {
+  .profile {
+    display: none;
+  }
+}
+div.profile {
+  display: block;
+  vertical-align : baseline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  padding: 1%;
+  overflow: auto;
+
+}
+
+.profile-description {
+  margin-left: auto;
+  margin-right: auto;
+  width: inherit;
+  padding-left: 3%;
+  padding-right: 3%;
+  height: 100%;
+  background-color: rgba(225, 225, 225, 0.55);
+  overflow: auto;
+  font-family: sans-serif;
+  font-size: x-small;
+}
+.profile-title {
+  font-size: small;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding: 3%;
+  height: inherit;
+  background-color: rgba(225, 225, 225, 0.55);
+  overflow: visible;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: sans-serif;
+}
+.profile-description.h2 {
+  font-size: small;
+}
+.strong{
+  font-size: x-small;
+}
+.p {
+  font-size: small;
+  text-indent: 10px;
+}
+.profile-image img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.profile-image {
+  text-align: center;
+  position: relative;
+  top: 30px;
+
+}
