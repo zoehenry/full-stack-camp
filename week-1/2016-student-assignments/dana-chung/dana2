@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="practice-stylesheet.css">
+  </head>
+  <body>
+    <div class="title">
+      <h1>Hi guys!</h1>
+    </div>
+    <div class="description">
+      <p class="first-paragraph">My name is Dana Chung!</p>
+      <p>This is my page.</p>
+      <p>My favorite color is blue (like the ocean).</p>
+    </div>
+    <div class="links">
+      <p>Here is a link to my favorite <a href="http://facebook.com">social media site</a>.</p>
+    </div>
+    <div class="links2">
+      <p>Here is the link to my favorite music artist, <a href="http://lanadelrey.com"> Lana Del Rey</a>.</p>
+    </div>
+    <div class="images">
+      When I am not at school, I live with my two parents, younger sister, younger brother and dog. My dog is named Korie. This is what she looks like:
+      <image class="image-circle"   src="http://goldendoodlesoflove.com/yahoo_site_admin/assets/images/Goldendoodle_puppy_at_4_months_old.19151920_std.JPG">
+    </div>
+  </body>
+</html>
